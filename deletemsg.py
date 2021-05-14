@@ -43,6 +43,7 @@ async def on_ready():
                     messages = await channel.history(limit=None).flatten()
                 except:
                     print("[*] ERROR: Tried accessing channel without perms")
+                    messages = []
                 print("[*] All messages have been collected")
 
                 print("[*] Number of messages {}".format(len(messages)))
@@ -59,6 +60,7 @@ async def on_ready():
                             #time.sleep(random.randint(1,10))
                         except:
                             continue
+
     print("[*] Done")
     exit(0)
 
