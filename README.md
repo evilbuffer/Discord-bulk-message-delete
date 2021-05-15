@@ -1,5 +1,5 @@
 # Why?
-Due to Discord's inability to allow users to bulk delete messages, i saw the need to create my own tool for it.\
+Due to Discord's inability to allow users to bulk delete messages, i saw the need to create my own tool for it.
 
 # How?
 Usage is fairly simple.\
