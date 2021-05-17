@@ -18,8 +18,7 @@ args = parse_args()
 
 bot = commands.Bot(command_prefix="!test ")
 
-def check_user_id(message):
-    return message.author.id == bot.user.id
+
 @bot.event
 async def on_ready():
 
